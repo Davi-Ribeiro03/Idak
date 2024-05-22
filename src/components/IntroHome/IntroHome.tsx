@@ -1,17 +1,23 @@
 import React from "react";
 import Image from "next/image";
 
-import styles from "./IntroHome.module.scss";
 import Button from "../Button/Button";
 import Search from "../Images/Search";
 
 import search2 from "../../../public/search2.svg";
-import search from "../../../public/search.svg";
 import location from "../../../public/location.svg";
 
+//bg-[url(/familyMobile.svg)] md:bg-[url(/family.svg)]
 const IntroHome = () => {
   return (
-    <div className="h-screen bg-[url(/familyMobile.svg)] md:bg-[url(/family.svg)] bg-contain bg-no-repeat pt-8">
+    <div className="h-screen bg-contain bg-no-repeat pt-8 relative">
+      <Image
+        src="/family.svg"
+        width={100}
+        height={100}
+        alt="Imagem de uma familia e um carro"
+        className="h-auto w-auto absolute top-0 left-0 object-contain -z-10 "
+      />
       <h1 className="font-extrabold text-4xl mb-5 text-center leading-normal md:mt-14 md:text-5xl">
         Discover Your <br className="md:hidden " />
         <strong className="text-primary-500">Perfect Rental</strong>
