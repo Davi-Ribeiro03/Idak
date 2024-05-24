@@ -2,6 +2,7 @@ import BrowseFromTopCategories from "@/components/BrowseFromTopCategories/Browse
 import FeaturedListings from "@/components/FeaturedListings/FeaturedListings";
 import IntroHome from "@/components/IntroHome/IntroHome";
 import Header from "@/components/header/Header";
+import ContainerHoteis from "../components/ContainerHoteis/ContainerHoteis";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <IntroHome />
       <BrowseFromTopCategories />
       <FeaturedListings />
+      <ContainerHoteis/>
     </main>
   );
 }
