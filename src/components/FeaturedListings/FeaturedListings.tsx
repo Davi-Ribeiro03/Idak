@@ -17,7 +17,7 @@ const FeaturedListings = () => {
   return (
     <div className="mt-16">
       <Tittle>Featured Listings</Tittle>
-      <div className="flex flex-row justify-center gap-8">
+      <div className="flex flex-row justify-center gap-6">
         {LISTINGOPTIONS.map((option, index) => (
           <button
             key={index}

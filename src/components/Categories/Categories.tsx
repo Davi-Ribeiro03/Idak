@@ -33,7 +33,7 @@ const Categories = () => {
           className="flex items-center gap-1 border-gray-200 border-2 rounded-full py-1 pl-1 pr-6"
         >
           <Image alt="" src={category.img} width={40} height={40} />
-          <span>{category.text}</span>
+          <span className="text-sm">{category.text}</span>
         </div>
       ))}
     </div>
