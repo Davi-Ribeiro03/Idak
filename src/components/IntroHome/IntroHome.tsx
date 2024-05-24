@@ -17,6 +17,7 @@ const IntroHome = () => {
         height={100}
         alt="Imagem de uma familia e um carro"
         className="h-auto w-auto absolute top-0 left-0 object-contain -z-10 "
+        priority
       />
       <h1 className="font-extrabold text-4xl mb-5 text-center leading-normal md:mt-14 md:text-5xl">
         Discover Your <br className="md:hidden " />
